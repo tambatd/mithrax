@@ -10,8 +10,8 @@ function setup() {
   frameRate(30);
   createCanvas(x,y);
   background(0);
-  console.log(x);
-  console.log(y);
+ // console.log(x);
+  //console.log(y);
 }
 
 
@@ -32,7 +32,7 @@ function draw() {
   fill(255,3,49);
   textSize(12);
 
-  console.log(string1[num]);
+ // console.log(string1[num]);
   /*if(random(0,1)==1){
     fill(color(59,255,75));
   }*/
